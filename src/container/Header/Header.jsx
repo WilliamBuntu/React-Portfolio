@@ -52,7 +52,7 @@ const Header = () => {
           className='app__header-img'
         >
 
-        <img src={images.profile} alt='profile_bg' />
+        <img src={images.f4} alt='profile_bg' />
             <motion.img
 
                whileInView = {{ scale: [0, 1] }}
