@@ -38,17 +38,17 @@ const [toggle, setToggle] = useState(false)
                               >
 
                                <HiX onClick = {() => setToggle(false)}/>
-
+                                   <ul>
                                      {['home', 'about', 'work', 'skills' , 'contact',].map( (item) => (
                            <li key={item}>
 
 
-                                <a href={`#${item}`}> {item}   onClick = {() => setToggle(false)}</a>
+                                <a href={`#${item}`}   onClick = {() => setToggle(false)} > {item}   </a>
 
 
                            </li>
                         )) }
-
+                           </ul>
                               </motion.div>
 
                             )}
