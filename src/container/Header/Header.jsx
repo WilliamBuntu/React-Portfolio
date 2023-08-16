@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.scss'
+import { AppWrapp} from '../../wrapper'
 import { motion } from 'framer-motion';
 import { images } from '../../constants'
 
@@ -17,7 +18,7 @@ const scaleVariants = {
 
 const Header = () => {
   return (
-    <div id='home' className='app__header app__flex'>
+    <div  className='app__header app__flex'>
 
         <motion.div
 
@@ -52,7 +53,7 @@ const Header = () => {
           className='app__header-img'
         >
 
-        <img src={images.f4} alt='profile_bg' />
+        <img src={images.profle} alt='profile_bg' />
             <motion.img
 
                whileInView = {{ scale: [0, 1] }}
@@ -83,5 +84,5 @@ const Header = () => {
   )
 }
 
-export default Header
+export default AppWrapp(Header , 'home')
 

@@ -29,6 +29,7 @@ import logo from '../assets/logo.png';
 import f2 from '../assets/f2.png';
 import f3 from '../assets/f3.png';
 import f4 from '../assets/f4.png';
+import f5 from '../assets/f5.JPG';
 import adidas from '../assets/adidas.png';
 import amazon from '../assets/amazon.png';
 import asus from '../assets/asus.png';
@@ -74,5 +75,5 @@ export default {
   profle,
   f2,
   f3,
-  f4
+  f4,f5
 };
